@@ -1,0 +1,86 @@
+.proflie-pic{
+    width: 280px;
+}
+
+.icon-menu ul li{
+    list-style-type: none;
+}
+
+.icon-menu ul{
+    line-height: 40px;
+    background-color: #FFB931;
+    padding: 18px;
+    border-radius: 24px;
+}
+
+.icon-menu ul li i{
+    color: #000;
+}
+
+.icon-menu ul li i.active{
+    color: #ffffff;
+}
+
+.home-container>.row{
+    height: 100vh;
+}
+
+.icon-menu>ul>li::after{
+    content: "...";
+    font-weight: 600;
+    display: block;
+    transform: rotate(90deg);
+    margin-left: 6px;
+}
+
+.icon-menu>ul>li:nth-child(6)::after{
+    content: "";
+}
+
+.main-menu>ul>li::after{
+    content: "...";
+    font-weight: 600;
+    display: block;
+    transform: rotate(90deg);
+    margin-left: 6px;
+}
+
+.main-menu>ul>li:nth-child(1)::before{
+    content: "...";
+    font-weight: 600;
+    display: block;
+    transform: rotate(90deg);
+    margin-left: 6px;
+}
+
+.main-menu>ul::before{
+    content: "●";
+    font-weight: 600;
+    display: block;
+    transform: rotate(90deg);
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.main-menu>ul::after{
+    content: "●";
+    font-weight: 600;
+    display: block;
+    transform: rotate(90deg);
+    margin-left: 2px;
+    margin-top: -10px;
+}
+
+.portfolio-img .active{
+    display: inline-block;
+}
+
+.portfolio-img .hide{
+    display: none;
+}
+
+@media (max-width: 576px){
+    .proflie-pic{
+        width: 100%;
+    }
+}
